@@ -118,7 +118,7 @@
 &kp ENTER  &kp KP_NUMLOCK  &kp HOME            &kp UP_ARROW    &kp END              &kp F3                                   &kp PAGE_UP    &kp N7              &kp N8         &kp N9             &kp F7         &kp F9
 &trans     &kp F1          &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp F4                                   &kp PAGE_DOWN  &kp N4              &kp N5         &kp N6             &kp F8         &kp F10
 &trans     &kp F2          &kp LC(LEFT_ARROW)  &kp CAPS        &kp LC(RIGHT_ARROW)  &kp DELETE                               &trans         &mdq LEFT_SHIFT N1  &mdq RCTRL N2  &mdq RIGHT_ALT N3  &kp LS(RIGHT)  &trans
-                           &kp F5              &kp F6          &trans               &trans      &trans    &kp LC(BACKSPACE)  &mo 5          &trans              &trans         &trans
+                           &kp F5              &kp F6          &trans               &trans      &trans    &kp LC(BACKSPACE)  &lt 5 N0       &trans              &trans         &trans
             >;
 
             display-name = "nav";
@@ -158,19 +158,19 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans    &trans    &trans  &trans                    &trans  &trans           &trans     &trans         &trans  &trans
-&trans  &mo 7   &mkp MB2  &mkp MB3  &trans  &trans                    &trans  &trans           &trans     &trans         &trans  &trans
-&trans  &trans  &trans    &trans    &trans  &trans                    &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &trans  &trans
-                &trans    &trans    &trans  &trans  &trans    &trans  &trans  &trans           &trans     &trans
+&trans  &trans  &trans    &trans    &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mo 7   &mkp MB2  &mkp MB3  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans    &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans    &trans    &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         scroll {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans           &trans     &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans           &trans     &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans           &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
 
