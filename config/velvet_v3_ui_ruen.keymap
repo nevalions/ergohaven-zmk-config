@@ -128,7 +128,7 @@
             bindings = <
 &trans  &kp AT_SIGN  &kp LT    &kp EQUAL  &kp GT     &kp TILDE                    &trans     &kp LEFT_BRACKET  &kp UNDER  &kp RIGHT_BRACKET  &trans         &trans
 &trans  &kp BSLH     &kp LPAR  &kp MINUS  &kp RPAR   &kp PLUS                     &kp PRCNT  &kp LBRC          &kp SEMI   &kp RBRC           &kp EXCL       &trans
-&trans  &kp EXCL     &kp STAR  &kp COLON  &kp CARET  &en HASH                     &kp PIPE   &en DOLLAR        &kp COMMA  &kp DOT            &kp AMPERSAND  &trans
+&trans  &kp EXCL     &kp STAR  &kp COLON  &kp CARET  &kp HASH                     &kp PIPE   &kp DOLLAR        &kp COMMA  &kp DOT            &kp AMPERSAND  &trans
                      &trans    &trans     &trans     &mo 5      &trans    &trans  &trans     &trans            &trans     &trans
             >;
 
@@ -140,7 +140,7 @@
             bindings = <
 &kp RU_CYRILLIC_IO  &kp AT              &kp LESS_THAN            &kp RU_EQUAL  &kp GREATER_THAN  &kp TILDE2                    &trans          &kp LEFT_BRACKET  &kp UNDER     &kp RIGHT_BRACKET  &trans              &trans
 &kp RU_NUMERO       &kp BSLH            &kp RU_LEFT_PARENTHESIS  &kp RU_MINUS  &kp RU_RPAR       &kp PLUS                      &kp RU_PERCENT  &kp LEFT_BRACE    &kp RU_SEMI   &kp RIGHT_BRACE    &kp RU_EXCLAMATION  &trans
-&trans              &kp RU_EXCLAMATION  &kp RU_ASTERISK          &kp RU_COLON  &kp CARET         &kp POUND                     &kp PIPE2       &kp DLLR          &kp RU_COMMA  &kp RU_DOT         &kp AMPERSAND       &trans
+&trans              &kp RU_EXCLAMATION  &kp RU_ASTERISK          &kp RU_COLON  &kp CARET         &en POUND                     &en PIPE        &en DLLR          &kp RU_COMMA  &kp RU_DOT         &kp AMPERSAND       &trans
                                         &trans                   &trans        &trans            &mo 5       &trans    &trans  &trans          &trans            &trans        &trans
             >;
         };
