@@ -26,7 +26,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <165>;
             flavor = "tap-preferred";
         };
     };
@@ -97,7 +97,7 @@
 &kp ENTER          &kp Q         &kp W            &kp E         &kp R              &kp T                                   &kp Y        &kp U               &kp I             &kp O               &kp P         &kp BSPC
 &mdq LEFT_WIN ESC  &kp A         &mdq LEFT_ALT S  &mdq LCTRL D  &mdq LEFT_SHIFT F  &kp G                                   &kp H        &kp J               &kp K             &kp L               &kp SEMI      &kp APOS
 &kp LCTRL          &mdq LC(Z) Z  &mdq LC(X) X     &mdq LC(C) C  &mdq LC(V) V       &kp B                                   &kp N        &mdq RIGHT_SHIFT M  &mdq RCTRL COMMA  &mdq RIGHT_ALT DOT  &kp QUESTION  &kp RIGHT_SHIFT
-                                 &layer_ru        &kp GRAVE     &lt 3 TAB          &lt 2 SPACE  &mkp MB1    &kp BACKSPACE  &lt 4 ENTER  &cap_sen 7 MB1      &kp FSLH          &kp N0
+                                 &layer_ru        &kp GRAVE     &lt 3 TAB          &lt 2 SPACE  &mkp MB1    &kp BACKSPACE  &lt 4 ENTER  &trans              &kp FSLH          &kp N0
             >;
 
             display-name = "en";
@@ -109,7 +109,7 @@
 &kp ENTER          &kp RU_CYRILLIC_SHORT_I    &kp RU_CYRILLIC_TSE             &kp RU_CYRILLIC_U          &kp RU_CYRILLIC_KA              &kp RU_CYRILLIC_IE                             &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE                     &kp RU_CYRILLIC_SHA        &kp RU_CYRILLIC_SHCHA          &kp RU_CYRILLIC_ZE   &kp RU_CYRILLIC_HA
 &mdq LEFT_WIN ESC  &kp RU_CYRILLIC_EF         &mdq LEFT_ALT RU_CYRILLIC_YERU  &mdq LCTRL RU_CYRILLIC_VE  &mdq RIGHT_SHIFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE                             &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O                       &kp RU_CYRILLIC_EL         &kp RU_CYRILLIC_DE             &kp RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_E
 &kp LCTRL          &mdq LC(Z) RU_CYRILLIC_YA  &mdq LC(X) RU_CYRILLIC_CHE      &mdq LC(C) RU_CYRILLIC_ES  &mdq LC(V) RU_CYRILLIC_EM       &kp RU_CYRILLIC_I                              &kp RU_CYRILLIC_TE  &mdq RIGHT_SHIFT RU_CYRILLIC_SOFT_SIGN  &mdq RCTRL RU_CYRILLIC_BE  &mdq RIGHT_ALT RU_CYRILLIC_YU  &en QMARK            &kp RSHFT
-                                              &layer_en                       &kp RU_CYRILLIC_IO         &lt 3 TAB                       &lt 2 SPACE         &mkp MB1    &kp BACKSPACE  &lt 5 ENTER         &cap_sen 7 MB1                          &kp SLASH                  &kp RU_CYRILLIC_HARD_SIGN
+                                              &layer_en                       &kp RU_CYRILLIC_IO         &lt 3 TAB                       &lt 2 SPACE         &mkp MB1    &kp BACKSPACE  &lt 5 ENTER         &trans                                  &kp SLASH                  &kp RU_CYRILLIC_HARD_SIGN
             >;
         };
 
