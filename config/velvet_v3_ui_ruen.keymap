@@ -160,7 +160,7 @@
             bindings = <
 &trans  &trans  &mo 7   &mkp MB3  &mkp MB2  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans    &trans    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans    &trans    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans    &trans                    &trans  &trans  &trans  &trans  &trans  &none
                 &trans  &trans    &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
