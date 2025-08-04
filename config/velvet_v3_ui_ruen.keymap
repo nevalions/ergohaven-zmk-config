@@ -140,7 +140,7 @@
             bindings = <
 &kp RU_CYRILLIC_IO  &en AT              &en LESS_THAN            &kp RU_EQUAL  &en GREATER_THAN  &en TILDE                    &trans          &en LEFT_BRACKET  &kp UNDER      &en RIGHT_BRACKET  &trans         &trans
 &kp RU_NUMERO       &kp BSLH            &kp RU_LEFT_PARENTHESIS  &kp RU_MINUS  &kp RU_RPAR       &kp PLUS                     &en RU_PERCENT  &en LEFT_BRACE    &kp RU_SEMI    &en RIGHT_BRACE    &en AMPERSAND  &trans
-&trans              &kp RU_EXCLAMATION  &kp RU_ASTERISK          &kp RU_COLON  &en CARET         &en POUND                    &en PIPE        &en DLLR          &kp RU_COMMA   &kp RU_DOT         &trans         &trans
+&trans              &kp RU_EXCLAMATION  &kp RU_ASTERISK          &kp RU_COLON  &en CARET         &en POUND                    &en PIPE        &en DLLR          &kp RU_COMMA   &kp RU_DOT         &en QMARK      &trans
                                         &trans                   &trans        &trans            &mo 5      &trans    &trans  &trans          &trans            &kp BACKSLASH  &trans
             >;
         };
